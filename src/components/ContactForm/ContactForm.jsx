@@ -1,11 +1,6 @@
-import { Component } from 'react';
 import { InputLabel, InputField, SubmitButton, Form } from './styled';
-import PropTypes from 'prop-types';
-
-
 import PropTypes from 'prop-types';
 import { useState } from 'react';
-import { InputLabel, InputField, SubmitButton, Form } from './styled';
 
 export function ContactForm({ onSubmit }) {
   const [name, setName] = useState('');

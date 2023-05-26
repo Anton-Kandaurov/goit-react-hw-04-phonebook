@@ -2,7 +2,8 @@ import { Filter } from 'components/Filter';
 import { ContactForm } from 'components/ContactForm';
 import { ContactList } from 'components/ContactList';
 import { nanoid } from 'nanoid';
-import { Component } from 'react';
+
+import { useEffect, useState } from 'react';
 
 
 export function App() {
