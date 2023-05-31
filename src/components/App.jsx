@@ -2,7 +2,6 @@ import { Filter } from 'components/Filter';
 import { ContactForm } from 'components/ContactForm';
 import { ContactList } from 'components/ContactList';
 import { nanoid } from 'nanoid';
-
 import { useEffect, useState } from 'react';
 
 
