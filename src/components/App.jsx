@@ -15,6 +15,7 @@ export function App() {
 
   const [filter, setFilter] = useState('');
 
+  
   useEffect(() => {
     const savedToLocalStorageContacts = JSON.parse(
       localStorage.getItem('contacts')
